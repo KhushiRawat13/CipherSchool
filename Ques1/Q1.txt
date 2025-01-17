@@ -1,0 +1,33 @@
+Naive Approach:
+---------------
+Code: A simple for loop iterates through all elements.
+Time Complexity: 𝑂(𝑛)
+O(n) because the loop runs once for each of the n elements.
+Asymptotic Notations:
+Big-O: : O(n), upper bound for runtime.
+Omega : (Ω): Ω(n), lower bound as it will always loop through n elements.
+Theta : Θ(n), tight bound as runtime is exactly proportional to n.
+
+Recursive Approach:
+--------------------
+Code: Recursively sums the first element with the result of a smaller subproblem.
+Time Complexity: O(n), as the function is called n+1 times (one for each element and one for the base case).
+Space Complexity: O(n) due to the recursion stack.
+Asymptotic Notations:
+Big-O: O(n), upper bound as there are n recursive calls.
+
+Space Complexity:O(n) due to the recursion stack.zz
+
+Omega : 
+Ω(n), lower bound due to n recursive calls.
+Theta Θ(n), as the runtime is proportional to n.
+
+
+Using Built-in Functions:
+------------------------
+Code: Uses std::accumulate which is optimized for summing a range of numbers.
+Time Complexity: O(n), as std::accumulate internally iterates through n elements.
+Asymptotic Notations:
+Big-O O(n), upper bound for runtime.
+Omega Ω(n), lower bound for n elements.
+Theta Θ(n), as the sum operation is proportional to n.
